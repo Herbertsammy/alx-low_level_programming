@@ -16,11 +16,11 @@ int main(void)
 	if (x == 'e' || x == 'q')
 	{
 	x = x;
-	} else
+																	} else
 	{
-															putchar(x);
+	putchar(x);
 	}
-	}
+
 
 	putchar('\n');
 	return (0);
